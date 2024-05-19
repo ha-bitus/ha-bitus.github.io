@@ -3,31 +3,40 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Habitus</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <div class="navBar">
-      <img src = "habitusWebsiteHeader.png" class="positionHeader">
-      <a href="index.html">
-        <img src = "Primary Logo Simplified.png" class="positionLogo">
-      </a>
-      <ul class="nav">
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="product.html">Product</a></li>
-        <li><a href="index.html">Home</a></li>
-      </ul>
+    <div class="nav-container">
+      <img src = "longerDumbellWebsiteHeader.png" class="positionHeader">
+
+      <div class="nav">
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+
+      <div class="navBar">
+        <a href="index.html">
+          <img src = "Primary Logo Simplified.png" class="positionLogo">
+        </a>
+      </div>
+
     </div>
-    <img src="gymPicture.jpg" class="positionGymImage">
-    <h1 class="title1">Earn rewards by going to the gym.</h1>
-    <h2 class="title2">Tracking consistent gym habits on the Habitus mobile app allows you to earn rewards.</h2>  
+
+    <div class="gymImage-container">
+      <img src="gymPicture.jpg" class="positionGymImage">
+    </div> 
+
+    <div class="title-container">
+      <h1 class="title1">Earn rewards by going to the gym.</h1>
+      <h2 class="title2">Tracking consistent gym habits on the Habitus mobile app allows you to earn rewards.</h2>
+    </div>
     
-    <!-- <form action="/submit" method="post" class="input-container">
-      <input type="text" placeholder="Enter your text here..." id="userInput" name="userInput" required>
-      <button type="submit" class="submit-button">Submit</button>
-    </form> -->
     
     <form id="submissionForm" class="input-container">
       <input type="email" id="email" name="email" placeholder="Email me when it's ready" required>
