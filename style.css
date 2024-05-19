@@ -5,15 +5,29 @@ html {
   padding: 0;
 }
 
+.home body{
+  font-family: Arial;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url('gymPictureCropped.jpg');
+  background-size: 115% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: static;
+}
+
 body{
   font-family: Arial;
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  background-image: url('gymPicture.jpg');
-  background-size: 100% 100%;
+  background-image: url('greenBlurredBackground.png');
+  background-size: 115% 100%;
   background-repeat: no-repeat;
+  overflow: hidden;
   position: static;
 }
 
@@ -93,7 +107,7 @@ a {
   font-size: 350%;
   color: #ffffff;
   text-align: center;
-  padding-top: 5%;
+  padding-top: 8%;
   padding-right: 5%;
   padding-left: 5%;
 }
@@ -106,13 +120,38 @@ a {
   padding-right: 5%;
   padding-left: 5%;
   line-height: 130%;
+  margin-bottom: -10%;
 }
 
 .input-container {
   top: 0;
   padding: 0;
-  margin-top: 14%;
-  margin-left: 2%;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.productMargin {
+  padding-top: 8%;
+}
+
+.title3 {
+  font-size: 250%;
+  color: #ffffff;
+  text-align:center;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-weight: 350;
+  margin-top: 10%;
+}
+
+.title4 {
+  color: #ffffff;
+  font-size: 120%;
+  font-weight: 250;
+  padding-right: 9%; 
+  padding-left: 9%;
+  line-height: 150%;
+  text-align: left;
 }
 
 @media only screen and (min-width: 960px) {
@@ -125,11 +164,12 @@ a {
   }
   .positionGymImage {
     height: 100%;
-    width: 110%;
+    width: 100%;
     overflow: hidden;
     margin-top: 80px;
   }
-  body{
+
+  body, .home body{
     font-family: Arial;
     height: 100%;
     width: 100%;
@@ -149,6 +189,7 @@ a {
     padding: 0;
     margin-top: -12%;
     margin-left: 2%;
+    width: 100%;
   }
   .title1 {
     font-size: 450%;
@@ -168,14 +209,38 @@ a {
     padding-left: 15%;
     line-height: 130%;
   }
-
   input[type="email"] {
-    width: 30%;
-    padding: 10px;
-    margin: 10%;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    /* size: 150; */
+    /* padding: 10px;
+    margin: 10%; */
+    /* font-size: 16px; */
+    /* border: 1px solid #ccc;
+    border-radius: 4px; */
+  }
+
+  .title3 {
+    font-size: 250%;
+    color: #ffffff;
+    text-align:left;
+    padding-right: 30%;
+    padding-left: 12%;
+    font-weight: 350;
+    margin-top: 5%;
+  }
+  
+  .title4 {
+    color: #ffffff;
+    font-size: 120%;
+    font-weight: 350;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: left;
+  }
+  .productMargin {
+    padding-top: 3%;
   }
 }
 
@@ -208,11 +273,14 @@ a {
 }
 
 input[type="email"] {
-  width: 30%;
-  padding: 5%;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  width: 300px;
+  padding: 0;
+  /* size: 150; */
+  /* padding: 10px;
+  margin: 10%; */
+  /* font-size: 16px; */
+  /* border: 1px solid #ccc;
+  border-radius: 4px; */
 }
 
 input[type="email"]::placeholder {
