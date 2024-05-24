@@ -1,0 +1,23 @@
+@media only screen and (min-width: 500px) { /* responsive navigation bar */
+  .nav li {
+    display: inline;
+    float: right;
+    padding: 35px;
+    font-size: 100%;
+  }
+  .positionLogo {
+    top: 0;
+    left: 0;
+    width: 130px;
+    margin: 20px;
+    position: absolute;
+  }
+  .nav-container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+    position: relative;
+  }
+}

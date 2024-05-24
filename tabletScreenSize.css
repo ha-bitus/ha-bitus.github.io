@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1500px) { /* smaller than ipad/half desktop size */
+    .home body, body {
+      font-family: Arial;
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background-image: url('greenBlurredBackground.png');
+      background-size: 115% 115%;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      position: static;
+    } 
+  }

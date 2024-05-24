@@ -1,501 +1,107 @@
-html {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-.home body{
-  font-family: Arial;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-image: url('gymPictureCropped.jpg');
-  background-size: 115% 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  position: static;
-}
-
-body{
-  font-family: Arial;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-image: url('greenBlurredBackground.png');
-  background-size: 115% 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  position: static;
-}
-
-a {
-  text-decoration: none;
-  color: #221330;
-  font-family: 'Inter',  Arial, Helvetica, sans-serif;
-}
-
-.positionHeader {
-  top: 0;
-  left: 0;
-  position: relative;
-  height: 100%;
-  width: 1920px;
-}
-
-.nav-container {
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  height: 65px;
-  position: relative;
-}
-
-.positionLogo {
-  top: 0;
-  left: 0;
-  width: 81.3px;
-  margin: 15px;
-  margin-top: 23px;
-  margin-bottom: 17px;
-  position: absolute;
-}
-
-.gymImage-container {
-  float: right;
-  overflow: hidden;
-}
-
-.positionGymImage {
-  margin-top: 65px;
-  height: 0%;
-  width: 0%;
-  overflow: hidden;
-}
-
-.nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.nav ul {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  list-style-type: none;
-}
-
-.nav li {
-  display: inline;
-  float: right;
-  padding: 16.6px;
-  padding-top: 26px;
-  padding-bottom: 29px;
-  font-size: 80%;
-}
-
-.title-container {
-  width: 100%;
-  height: 50%;
-}
-
-.title1 {
-  font-size: 350%;
-  color: #ffffff;
-  text-align: center;
-  padding-top: 8%;
-  padding-right: 5%;
-  padding-left: 5%;
-  padding-bottom: 5%;
-}
-
-.title2 {
-  color: #ffffff;
-  font-weight: 450;
-  text-align: center;
-  margin-top: 5%;
-  padding-right: 5%;
-  padding-left: 5%;
-  line-height: 130%;
-  margin-bottom: -10%;
-}
-
-.productMargin {
-  padding-top: 8%;
-}
-
-.title3 {
-  font-size: 250%;
-  color: #ffffff;
-  text-align:center;
-  padding-left: 4%;
-  padding-right: 4%;
-  font-weight: 350;
-  margin-top: 10%;
-}
-
-.title4 {
-  color: #ffffff;
-  font-size: 120%;
-  font-weight: 250;
-  padding-right: 9%; 
-  padding-left: 9%;
-  line-height: 150%;
-  text-align: left;
-}
-
-
-.input-container {
-  top: 0;
-  padding: 0;
-  margin-top: 10%;
-  width: 100%;
-}
-
-.inputType-email {
-  width: 80%;
-  padding: 15px;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 6%;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-input[type="email"]::placeholder {
-  color: lightgray;
-  left: auto;
-}
-
-input[type="email"]:hover {
-  background-color: #f0f0f0;
-  border-color: #555; /* Darker border */
-}
-
-.submit-button {
-  background-color: black;
-  color: white;
-  padding: 15px 29px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 87%;
-}
-
-.email-submit-container {
-  width: 100%;
-}
-
-.visualise {
-  background-color: blueviolet;
-}
-
-.visualise2 {
-  background-color: pink;
-}
-
-
-.submit-button:hover {
-  background-color: #333;
-}
-
-.contact-container {
-  margin: 0;
-  padding: 0;
-  top: 0;
-  left: 0;
-  height: 30%
-}
-
-textarea[type="text"] {
-  width: 82.5%;
-  height: 210px;
-  padding: 15px;
-  margin-left: 5%;
-  margin-top: 13%;
-  margin-bottom: 4%;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-textarea[type="text"]::placeholder {
-  color: lightgray;
-  font-family: Arial, Helvetica, sans-serif;
-  left: auto;
-}
-
-textarea[type="text"]:hover {
-  background-color: #f0f0f0;
-  border-color: #555;
-}
-
-
-.contact-title {
-  color: #ffffff;
-  width: 70%;
-  text-align: center;
-  padding: 10%;
-  margin-left: 4%;
-  margin-top: 6%;
-}
-
-.contact-submitButton {
-  background-color: black;
-  color: white;
-  padding: 17px 34px;
-  font-size: 16px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 10%;
-  width: 89%;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-
-p {
-  font-family: Arial; 
-  margin-right: 150px;
-  margin-left: 100px;
-}
-
-.tab {
-  margin-left: 150px;
-  margin-right: 100px;
-}
-
-
-input[type="contactEmail"] {
-  width: 80%;
-  padding: 20px;
-  margin-left: 5%;
-  margin-top: 6%;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-input[type="contactEmail"]::placeholder {
-  color: lightgray;
-  left: auto;
-}
-
-input[type="contactEmail"]:hover {
-  background-color: #f0f0f0;
-  border-color: #555; /* Darker border */
-}
+@import "navigationBar.css";
+@import "normalPhoneScreenSize.css";
+@import "tabletScreenSize.css";
+@import "desktopScreenSize.css";
 
 
 
-@media only screen and (min-width: 960px) {
-  .gymImage-container {
-    height: 100%;
-    width: 40%;
-    float: right;
-    overflow: hidden;
-    margin-top: -80px;
-  }
-  .positionGymImage {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 80px;
-  }
 
-  body, .home body{
-    font-family: Arial;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-image: url('greenBlurredBackground.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-  }
-  .title-container {
-    top: 0;
-    width: 60%;
-    height: 60%;
-  }
-  .title1 {
-    font-size: 450%;
-    width: 80%;
+/* @media only screen and (max-height: 660px) and (max-width: 400px) {  /* for fat and long phones */
+  /* .title1 {
+    font-size: 0.9rem;
     color: #ffffff;
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 0%;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding-top: 2rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 0rem;
   }
   .title2 {
+    font-size: 0.1rem;
     color: #ffffff;
     font-weight: 450;
     text-align: center;
-    margin-top: -3%;
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 5%;
+    padding-left: 5%;
     line-height: 130%;
-  }
+    margin-bottom: -10%;
+  } */
+/* } */ 
 
-  .title3 {
-    font-size: 250%;
-    color: #ffffff;
-    text-align:left;
-    padding-right: 30%;
-    padding-left: 12%;
-    font-weight: 350;
-    margin-top: 5%;
-  }
-  
-  .title4 {
-    color: #ffffff;
-    font-size: 120%;
-    font-weight: 350;
-    padding-right: 10%;
-    padding-left: 10%;
-    text-align: left;
-  }
-  .productMargin {
-    padding-top: 3%;
-  }
-  
+@media only screen and (max-height: 620px) and (max-width: 370px) { /* iphone 4/iphone 11 mini */
   .input-container {
     top: 0;
-    padding: 0;
-    margin-top: -12%;
-    margin-left: 2%;
-    width: 50%;
+    width: 100%;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    position: relative;
   }
-
   .inputType-email {
-    width: 70%;
-    padding: 15px;
-    margin-top: 18%;
-    margin-left: 5.5%;
-    margin-right: 5.5%;
-    font-size: 16px;
+    width: 85.5%;
+    padding: 0.4rem;
+    margin-bottom: 0.5em;
+    font-size: 13px;
     border: 1px solid #ccc;
     border-radius: 4px;
-  }
-  
-  .email-submit-container {
-    top: 0;
-    padding: 13px 25px;
-    margin-top: -12.25%;
-    margin-left: 74%;
-    width: 60%;
   }
   .submit-button {
     background-color: black;
     color: white;
-    padding: 15px 28px;
-    font-size: 16px;
+    padding: 0.4rem 9px;
+    font-size: 13px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    /* margin-left: 5%;
-    margin-right: 5%; */
-    margin-top: -40%;
-    width: 23%;
+    width: 90%;
   }
-  .contact-title {
-    color: #ffffff;
-    width: 40%;
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 5%;
-    padding: 0%;
-  }
-  input[type="contactEmail"] {
-    width: 30%;
-    padding: 10px;
-    margin: 10%;
-    margin-top: 3%;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  textarea[type="text"] {
-    width: 40%;
-    height: 150px;
-    padding: 15px;
-    margin-left: 10%;
-    margin-top: -8%;
-    margin-bottom: 4%;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  .contact-submitButton {
-    background-color: black;
-    color: white;
-    padding: 15px 28px;
-    font-size: 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-left: -42.25%;
-    margin-top: -40%;
-    width: 10%;
-  }
-  .contact-container {
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
-    height: 50%
-  }
-}
-
-
-@media only screen and (min-width: 500px) {
-  .nav li {
-    display: inline;
-    float: right;
-    padding: 35px;
-    font-size: 100%;
-  }
-  .positionLogo {
-    top: 0;
-    left: 0;
-    width: 130px;
-    margin: 20px;
-    position: absolute;
-  }
-  .nav-container {
+  .title-container {
     top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
-    height: 80px;
-    position: relative;
+    height: 65%;
+    margin-top: -2.5rem;
+  }
+  .title1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 0rem;
+  }
+  .title2 {
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 450;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    line-height: 130%;
+    margin-bottom: -10%;
   }
 }
+
+/* @media only screen and (min-height: 650px) { /* for long skinny phones */
+  /* .title1 {
+    font-size: 3.5em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 2rem;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 0rem;
+  }
+  .title2 {
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-weight: 450;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    line-height: 130%;
+    margin-bottom: -10%;
+  } */
+/* } */
+
