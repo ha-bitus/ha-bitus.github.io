@@ -1,161 +1,161 @@
 
-@media only screen and (min-width: 960px) and (max-width) {   /*desktop screen size*/
-    .gymImage-container { 
-      height: 105%;
-      width: 40%;
-      float: right;
-      overflow: hidden;
-      margin-top: -80px;
-    }
-    .positionGymImage {
-      height: 100%;
-      width: 100%;
-      overflow: hidden;
-      margin-top: 80px;
-    }
-  
-    body, .home body{
-      font-family: Arial;
-      height: 100%;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      background-image: url('greenBlurredBackground.png');
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-    }
-    .title-container {
-      top: 0;
-      width: 60%;
-      height: 90%;
-    }
-    .title1 {
-      font-size: 450%;
-      width: 80%;
-      color: #ffffff;
-      text-align: center;
-      padding-top: 10%;
-      padding-bottom: 0%;
-      padding-right: 10%;
-      padding-left: 10%;
-    }
-    .title2 {
-      color: #ffffff;
-      font-weight: 450;
-      text-align: center;
-      margin-top: -3%;
-      padding-right: 15%;
-      padding-left: 15%;
-      line-height: 130%;
-    }
-  
-    .title3 {
-      font-size: 250%;
-      color: #ffffff;
-      text-align:left;
-      padding-right: 30%;
-      padding-left: 12%;
-      font-weight: 350;
-      margin-top: 5%;
-    }
-    
-    .title4 {
-      color: #ffffff;
-      font-size: 120%;
-      font-weight: 350;
-      padding-right: 10%;
-      padding-left: 10%;
-      text-align: left;
-    }
-    .productMargin {
-      padding-top: 3%;
-    }
-    
-    .input-container {
-      top: 0;
-      padding: 0;
-      margin-top: -14%;
-      margin-left: 10%;
-      width: 40%;
-    }
-  
-    .inputType-email {
-      width: 70%;
-      height: 5%;
-      margin-top: 0%;
-      margin-left: 0%;
-      font-size: 16px;
-      border: none;
-      border-radius: 4px;
-    }
-    
-    .email-submit-container { /* container for home page submit button */
-      top: 0;
-      padding: 13px 25px;
-      margin-top: -7.7%;
-      margin-left: 69%;
-      width: 10%;
-    }
-    .submit-button {
-      background-color: black;
-      color: white;
-      padding: 15px 25px;
-      font-size: 90%;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      width: 15%;
-      margin-left: 0;
-      float: right;
-    }
-    .contact-title {
-      color: #ffffff;
-      width: 40%;
-      text-align: left;
-      margin-left: 10%;
-      margin-top: 5%;
-      padding: 0%;
-    }
-    input[type="contactEmail"] {
-      width: 30%;
-      padding: 10px;
-      margin: 10%;
-      margin-top: 3%;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
-    textarea[type="text"] {
-      width: 40%;
-      height: 150px;
-      padding: 15px;
-      margin-left: 10%;
-      margin-top: -8%;
-      margin-bottom: 4%;
-      font-size: 16px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    .contact-submitButton {
-      background-color: black;
-      color: white;
-      padding: 15px 28px;
-      font-size: 16px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      margin-left: -42.25%;
-      margin-top: -40%;
-      width: 10%;
-    }
-    .contact-container {
-      margin: 0;
-      padding: 0;
-      top: 0;
-      left: 0;
-      height: 50%
-    }
+@media only screen and (min-width: 960px) {  /* desktop screen size */
+  .gymImage-container { 
+    height: 105%;
+    width: 40%;
+    float: right;
+    overflow: hidden;
+    margin-top: -80px;
+  }
+  .positionGymImage {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+  }
+
+  body, .home body{
+    font-family: Arial;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('greenBlurredBackground.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .title-container {
+    top: 0;
+    width: 60%;
+    height: 90%;
+  }
+  .title1 {
+    font-size: 450%;
+    width: 80%;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 0%;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .title2 {
+    color: #ffffff;
+    font-weight: 450;
+    text-align: center;
+    margin-top: -3%;
+    padding-right: 15%;
+    padding-left: 15%;
+    line-height: 130%;
+  }
+
+  .title3 {
+    font-size: 250%;
+    color: #ffffff;
+    text-align:left;
+    padding-right: 30%;
+    padding-left: 12%;
+    font-weight: 350;
+    margin-top: 5%;
   }
   
+  .title4 {
+    color: #ffffff;
+    font-size: 120%;
+    font-weight: 350;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: left;
+  }
+  .productMargin {
+    padding-top: 3%;
+  }
   
+  .input-container {
+    top: 0;
+    padding: 0;
+    margin-top: -14%;
+    margin-left: 10%;
+    width: 40%;
+  }
+
+  .inputType-email {
+    width: 70%;
+    height: 5%;
+    margin-top: 0%;
+    margin-left: 0%;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .email-submit-container {
+    top: 0;
+    padding: 13px 25px;
+    margin-top: -7.7%;
+    margin-left: 69%;
+    width: 10%;
+  }
+  .submit-button {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    font-size: 90%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 15%;
+    margin-left: 0;
+    float: right;
+  }
+  .contact-title {
+    color: #ffffff;
+    width: 40%;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 0%;
+  }
+  input[type="contactEmail"] {
+    width: 30%;
+    padding: 10px;
+    margin: 10%;
+    margin-top: 3%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  textarea[type="text"] {
+    width: 40%;
+    height: 150px;
+    padding: 15px;
+    margin-left: 10%;
+    margin-top: -8%;
+    margin-bottom: 4%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .contact-submitButton {
+    background-color: black;
+    color: white;
+    padding: 15px 28px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: -42.25%;
+    margin-top: -40%;
+    width: 10%;
+  }
+  .contact-container {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 50%
+  }
+}
+
+
