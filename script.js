@@ -10,7 +10,7 @@ document.getElementById('submissionForm').addEventListener('submit', function(e)
     fetch(url_list, {
         method: 'POST',
         body: formData,
-        // mode: 'no-cors'
+        mode: 'no-cors'
     }).then(response => {
         alert('Form submitted successfully!');
     }).catch(error => {
