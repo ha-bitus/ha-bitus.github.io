@@ -153,6 +153,9 @@ line-height: 150%;
 text-align: left;
 }
 
+.white {
+  color:#ffffff;
+}
 
 .input-container {
 top: 0;
@@ -293,6 +296,7 @@ p {
 font-family: Arial; 
 margin-right: 150px;
 margin-left: 100px;
+color: white;
 }
 
 .tab {
